@@ -13,7 +13,7 @@ int	main(void)
 	void	*img2;
 	int		x;
 	int		y;
-	char	*img_path = "test.xpm";
+	char	*img_path = "test_anim.xpm";
 	char	*img2_path = "icons8-42-50.xpm";
 	t_var	var;
 
