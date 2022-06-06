@@ -1,5 +1,7 @@
-make --dry-run --keep-going --print-directory
-make: Entering directory '/mnt/nfs/homes/odessein/Project/test'
-make: Nothing to be done for 'all'.
-make: Leaving directory '/mnt/nfs/homes/odessein/Project/test'
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/hanako/Documents/Project_42/test-mlx'
+gcc -Wall -Werror -Wextra -g -MMD -Imlx -Lmlx -lmlx -lXext -lX11 -lm -O3 -c test.c -o test.o
+gcc -Wall -Werror -Wextra -g -MMD -Imlx -Lmlx -lmlx -lXext -lX11 -lm -O3 -c ft_memcpy.c -o ft_memcpy.o
+gcc -Wall -Werror -Wextra -g -MMD test.o ft_memcpy.o -Lmlx -lmlx -lXext -lX11 -lm -O3 -o a.out
+make: Leaving directory '/home/hanako/Documents/Project_42/test-mlx'
  

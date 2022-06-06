@@ -13,7 +13,7 @@ int	main(void)
 	void	*img3;
 	int		x;
 	int		y;
-	char	*img_path = "test_anim.xpm";
+	char	*img_path = "test.xpm";
 	char	*img2_path = "icons8-42-50.xpm";
 	char	*img3_path = "coins.xpm";
 	t_var	var;
@@ -83,22 +83,24 @@ int	display(t_var *var)
 
 		var->end.x = 32*(i + 1);
 		var->end.y = 32;
-		var->start.x = 32*i;
-		var->start.y = 32;
-		if (i == 2)
+		var->start.x = 32 * i + 1;
+		var->start.y = 1;
+		if (i == 8)
 		{
 			var->end.x = 32;
 			var->end.y = 32;
-			var->start.x = 0;
-			var->start.y = 0;
+			var->start.x = 1;
+			var->start.y = 1;
+			i = 0;
 		}
 		ft_apply(var);
 		mlx_put_image_to_window(var->mlx, var->win, var->img, 0, 0);
 		mlx_put_image_to_window(var->mlx, var->win, var->img2, var->x, var->y);
 		img = mlx_new_image(var->mlx, 32, 32);
 		ft_animate_object(var->img3, img, var);
-		mlx_put_image_to_window(var->mlx, var->win, var->img3, 500, 500);
+		mlx_put_image_to_window(var->mlx, var->win, var->img, 500, 500);
 		mlx_destroy_image(var->mlx, img);
+		i++;
 		return (0);
 }
 
@@ -123,14 +125,19 @@ void	ft_animate_object(void *src, void *dest, t_var *var)
 	int	size_line;
 	int	bpp;
 	int	endian;
-	int	i;
+	int i;
+	int	j;
 
-	(void) dest;
 	mlx_get_data_addr(var->img3, &bpp ,&size_line, &endian);
-	while ()
+	while (var->start.y <= var->end.y)
 	{
-
+		i = var->start.y * size_line + var->start.x * (bpp / 8);
+		j = var->start.y * size_line + var->end.x * (bpp / 8) - i;
+		printf("%i", j);
+		ft_memcpy(dest, src + i, j);
+		var->start.y++;
 	}
+
 	//fair appel a get data addr 
 	//ou lire a partir de start de combien pixel il faut avancer en fonction de start et end formule
 	//read les 1024 pixels 

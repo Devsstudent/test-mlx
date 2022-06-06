@@ -6,17 +6,16 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Jun  5 23:10:20 2022
+# Make data base, printed on Mon Jun  6 01:40:21 2022
 
 # Variables
 
- 
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
 ?F = $(notdir $?)
 # environment
-DESKTOP_SESSION = ubuntu
+DESKTOP_SESSION = xubuntu
 # default
 .SHELLFLAGS := -c
 # makefile (from 'Makefile', line 3)
@@ -34,117 +33,119 @@ VSCODE_LOG_NATIVE = false
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
-XAUTHORITY = /mnt/nfs/homes/odessein/.Xauthority
+XAUTHORITY = /home/hanako/.Xauthority
 # environment
-GDMSESSION = ubuntu
-# environment
-XMODIFIERS = @im=ibus
+GDMSESSION = xubuntu
+# default
+MAKE_VERSION := 4.2.1
 # makefile
-CURDIR := /mnt/nfs/homes/odessein/Project/test
+CURDIR := /home/hanako/Documents/Project_42/test-mlx
 # makefile
 SHELL = /bin/sh
 # environment
-GDM_LANG = en
+GDM_LANG = en_US
 # environment
 VTE_VERSION = 6003
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 9:5732385
+XDG_CONFIG_DIRS = /etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg
 # environment
-XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+GTK_OVERLAY_SCROLLING = 0
 # makefile (from 'test.d', line 1)
 MAKEFILE_LIST :=  Makefile test.d
 # automatic
 @F = $(notdir $@)
-# environment
-IM_CONFIG_PHASE = 1
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
-MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
+MAKELEVEL := 0
 # environment
-XDG_DATA_DIRS = /usr/share/gnome:/usr/share/ubuntu:/mnt/nfs/homes/odessein/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+XDG_DATA_DIRS = /usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share
 # environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/101841/bus
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-MANAGERPID = 349930
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-eccf5bdf-db7c-4b16-a05c-b8bfc5730b1d.sock
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/101841/vscode-ipc-855c142b-22a3-4616-b30a-d3e55601f3a2.sock
+LC_NAME = fr_FR.UTF-8
 # environment
-VSCODE_CWD = /mnt/nfs/homes/odessein/Project/test
+VSCODE_CWD = /home/hanako/Documents/Project_42/test-mlx
 # environment
-XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session9
-# environment
-KRB5CCNAME = FILE:/tmp/krb5cc_101841_w3132w
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /mnt/nfs/homes/odessein/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PATH = /home/hanako/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
-GPG_AGENT_INFO = /run/user/101841/gnupg/S.gpg-agent:0:1
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/e2r3p5.clusters.42paris.fr:@/tmp/.ICE-unix/350429,unix/e2r3p5.clusters.42paris.fr:/tmp/.ICE-unix/350429
+SESSION_MANAGER = local/hanako:@/tmp/.ICE-unix/2078,unix/hanako:/tmp/.ICE-unix/2078
 # environment
-XDG_RUNTIME_DIR = /run/user/101841
+XDG_RUNTIME_DIR = /run/user/1000
 # environment
-XDG_MENU_PREFIX = gnome-
+WINDOWID = 56623107
+# environment
+XDG_MENU_PREFIX = xfce-
 # environment
 VSCODE_LOG_STACK = false
 # environment
 ELECTRON_RUN_AS_NODE = 1
-# environment
-INVOCATION_ID = 3c3960772a384b7780cc8a0ee88bfa90
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
-XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/odessein
+XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/hanako
 # environment
 LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
 # environment
-XDG_SESSION_DESKTOP = ubuntu
+XDG_SESSION_DESKTOP = xubuntu
 # environment
-SSH_AUTH_SOCK = /run/user/101841/keyring/ssh
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # automatic
 %F = $(notdir $%)
 # environment
-DISPLAY = :0
+DISPLAY = :0.0
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-PWD = /mnt/nfs/homes/odessein/Project/test
+PWD = /home/hanako/Documents/Project_42/test-mlx
+# environment
+QT_QPA_PLATFORMTHEME = gtk2
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 350392
+XDG_SEAT = seat0
 # environment
-ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+SSH_AGENT_PID = 2162
 # environment
-GTK_MODULES = gail:atk-bridge
+ORIGINAL_XDG_CURRENT_DESKTOP = XFCE
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-HOME = /mnt/nfs/homes/odessein
+HOME = /home/hanako
 # environment
 VSCODE_CLI = 1
 # environment
-VSCODE_CODE_CACHE_PATH = /mnt/nfs/homes/odessein/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+VSCODE_CODE_CACHE_PATH = /home/hanako/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
 # environment
-LOGNAME = odessein
+LOGNAME = hanako
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
++F = $(notdir $+)
 # environment
 ELECTRON_NO_ATTACH_CONSOLE = 1
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
-# environment
-GNOME_DESKTOP_SESSION_ID = this-is-deprecated
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
-MAKELEVEL := 0
+XDG_VTNR = 7
+# environment
+CLUTTER_BACKEND = x11
+# environment
+LC_TIME = fr_FR.UTF-8
 # environment
 COLORTERM = truecolor
 # default
@@ -152,37 +153,39 @@ MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-QT_IM_MODULE = ibus
-# environment
-SHLVL = 2
+SHLVL = 1
 # makefile (from 'Makefile', line 1)
 CC = gcc -Wall -Werror -Wextra -g -MMD
-# default
-MAKE_VERSION := 4.2.1
 # environment
-USER = odessein
+XDG_SESSION_ID = c2
+# environment
+USER = hanako
+# environment
+LC_MONETARY = fr_FR.UTF-8
 # makefile
 .DEFAULT_GOAL := all
 # environment
-XDG_CURRENT_DESKTOP = Unity
-# environment
-LIBVIRT_DEFAULT_URI = qemu:///system
+XDG_CURRENT_DESKTOP = XFCE
+# makefile (from 'Makefile', line 4)
+NAME = a.out
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = fr_FR.UTF-8
 # default
 MAKE_COMMAND := make
-# environment
-OLDPWD = /mnt/nfs/homes/odessein/Project/test
 # default
 .VARIABLES := 
 # automatic
 *F = $(notdir $*)
 # environment
-LANGUAGE = en
+LANGUAGE = en_US
 # environment
 XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
 # environment
-VSCODE_IPC_HOOK = /run/user/101841/vscode-0e684af6-1.67.2-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-dfac2463-1.67.2-main.sock
+# environment
+PANEL_GDK_CORE_DEVICE_EVENTS = 0
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -193,26 +196,22 @@ MFLAGS = -pqrR
 +D = $(patsubst %/,%,$(dir $+))
 # environment
 GDK_BACKEND = x11
-# automatic
-+F = $(notdir $+)
+# environment
+LC_PAPER = fr_FR.UTF-8
 # environment
 QT_ACCESSIBILITY = 1
-# environment
-DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
 # default
 MAKEFILES := 
+# environment
+LC_NUMERIC = fr_FR.UTF-8
 # automatic
 <F = $(notdir $<)
 # environment
+LC_MEASUREMENT = fr_FR.UTF-8
+# environment
 LC_ALL = C
-# environment
-GJS_DEBUG_TOPICS = JS ERROR;JS LOG
-# environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/36bb74a4_3bbb_4347_9b80_151ad9a4ffa7
 # automatic
 ^F = $(notdir $^)
-# environment
-GNOME_TERMINAL_SERVICE = :1.86
 # default
 SUFFIXES := 
 # environment
@@ -220,21 +219,19 @@ CHROME_DESKTOP = code-url-handler.desktop
 # default
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
 # environment
-GJS_DEBUG_OUTPUT = stderr
-# makefile (from 'Makefile', line 4)
-NAME = a.out
+LC_IDENTIFICATION = fr_FR.UTF-8
 # default
 .RECIPEPREFIX := 
+# environment
+LC_ADDRESS = fr_FR.UTF-8
 # environment
 LANG = C
 # environment
 TERM = xterm-256color
 # environment
-DOCKER_HOST = unix:///run/user/101841/docker.sock
-# environment
-VSCODE_PID = 379839
+VSCODE_PID = 3560
 # variable set hash-table stats:
-# Load=111/1024=11%, Rehash=0, Collisions=16/141=11%
+# Load=110/1024=11%, Rehash=0, Collisions=15/144=10%
 
 # Pattern-specific Variable Values
 
@@ -242,7 +239,7 @@ VSCODE_PID = 379839
 
 # Directories
 
-# . (device 58, inode 293935235): 17 files, no impossibilities.
+# . (device 66311, inode 2375720): 17 files, no impossibilities.
 
 # 17 files, no impossibilities in 1 directories.
 
@@ -259,18 +256,15 @@ VSCODE_PID = 379839
 # Not a target:
 test.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-05 23:09:54.513991979
+#  Last modified 2022-06-06 01:39:00.184190995
 #  File has been updated.
 #  Successfully updated.
 
-ft_memcpy.o: ft_memcpy.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_memcpy'
-#  Last modified 2022-06-05 21:55:54.322639614
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 11):
-	$(CC) -Imlx -Lmlx -lmlx -lXext -lX11 -lm -O3 -c $< -o $@
+# Not a target:
+ft_memcpy.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 all: a.out
 #  Phony target (prerequisite of .PHONY).
@@ -278,42 +272,57 @@ all: a.out
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
 
 .PHONY: re all clean fclean
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+ 
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
- 
-#  Last modified 2022-06-05 23:09:00.902013146
+#  Last modified 2022-06-06 01:39:00.184190995
 #  File has been updated.
 #  Successfully updated.
 
 test.o: test.c test.c test.h mlx/mlx.h mlx/mlx_int.h
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'test'
-#  Last modified 2022-06-05 23:09:54.525991974
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := test.o
+# automatic
+# % := 
+# automatic
+# * := test
+# automatic
+# + := test.c test.c test.h mlx/mlx.h mlx/mlx_int.h
+# automatic
+# | := 
+# automatic
+# < := test.c
+# automatic
+# ^ := test.c test.h mlx/mlx.h mlx/mlx_int.h
+# automatic
+# ? := test.c test.h mlx/mlx.h mlx/mlx_int.h
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/14=7%
 #  recipe to execute (from 'Makefile', line 11):
 	$(CC) -Imlx -Lmlx -lmlx -lXext -lX11 -lm -O3 -c $< -o $@
 
-# Not a target:
-ft_memcpy.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-06-05 21:55:52.610639956
-#  File has been updated.
-#  Successfully updated.
-
 a.out: test.o ft_memcpy.o
 #  Implicit rule search has not been done.
-#  Last modified 2022-06-05 23:09:54.565991959
+#  Last modified 2022-06-06 01:39:00.188191081
 #  File has been updated.
-#  Successfully updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
 #  recipe to execute (from 'Makefile', line 8):
 	$(CC) $(OBJ) -Lmlx -lmlx -lXext -lX11 -lm -O3 -o $(NAME)
 
@@ -334,7 +343,7 @@ fclean: clean
 # Not a target:
 mlx/mlx.h:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-05 19:06:51.75302015
+#  Last modified 2022-06-03 10:00:26.433363173
 #  File has been updated.
 #  Successfully updated.
 
@@ -347,7 +356,7 @@ re: fclean all
 # Not a target:
 test.c:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-05 23:09:53.089992527
+#  Last modified 2022-06-06 01:40:16.113288461
 #  File has been updated.
 #  Successfully updated.
 
@@ -362,31 +371,31 @@ clean:
 # Not a target:
 test.h:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-05 23:09:46.137995211
+#  Last modified 2022-06-06 01:39:00.184190995
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
 mlx/mlx_int.h:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-01 10:05:55.362453103
+#  Last modified 2022-06-03 10:00:26.433363173
 #  File has been updated.
 #  Successfully updated.
 
 # files hash-table stats:
-# Load=17/1024=2%, Rehash=0, Collisions=0/50=0%
+# Load=16/1024=2%, Rehash=0, Collisions=0/46=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 32 / storage = 259 B / avg = 8 B
-# current buf: size = 8162 B / used = 259 B / count = 32 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 32 / storage = 263 B / avg = 8 B
+# current buf: size = 8162 B / used = 263 B / count = 32 / avg = 8 B
 
-# strcache performance: lookups = 64 / hit rate = 50%
+# strcache performance: lookups = 61 / hit rate = 47%
 # hash-table stats:
-# Load=32/8192=0%, Rehash=0, Collisions=1/64=2%
-# Finished Make data base on Sun Jun  5 23:10:20 2022
+# Load=32/8192=0%, Rehash=0, Collisions=1/61=2%
+# Finished Make data base on Mon Jun  6 01:40:21 2022
 
  

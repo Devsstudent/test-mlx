@@ -2,7 +2,7 @@
 # define TEST_H
 
 # include "mlx.h"
-
+# include <stddef.h>
 typedef enum e_bool{
 	FALSE,
 	TRUE
